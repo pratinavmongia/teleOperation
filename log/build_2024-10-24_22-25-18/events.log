@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (teleOperation) JobQueued: {'identifier': 'teleOperation', 'dependencies': OrderedDict()}
+[0.000350] (teleOperation) JobStarted: {'identifier': 'teleOperation'}
+[0.100171] (-) TimerEvent: {}
+[0.115237] (teleOperation) JobProgress: {'identifier': 'teleOperation', 'progress': 'cmake'}
+[0.125236] (teleOperation) Command: {'cmd': ['/usr/bin/cmake', '/home/pratinav/Desktop/teleOperation/teleOperation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pratinav/Desktop/teleOperation/install/teleOperation'], 'cwd': '/home/pratinav/Desktop/teleOperation/build/teleOperation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratinav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratinav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a81f4c0ce796c8c3334828671a74d8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratinav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratinav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratinav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratinav-VirtualBox:@/tmp/.ICE-unix/984,unix/pratinav-VirtualBox:/tmp/.ICE-unix/984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ec1eb21_2ee5_4f04_9144_18e6b893db85'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MOCXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.174'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pratinav/ros2_ws/install/my_py_pkg:/home/pratinav/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratinav/Desktop/teleOperation/build/teleOperation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a81f4c0ce796c8c3334828671a74d8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pratinav/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratinav/ros2_ws/install/my_cpp_pkg:/home/pratinav/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.202056] (-) TimerEvent: {}
+[0.305651] (-) TimerEvent: {}
+[0.420184] (-) TimerEvent: {}
+[0.539234] (-) TimerEvent: {}
+[0.640715] (-) TimerEvent: {}
+[0.723322] (teleOperation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.816894] (-) TimerEvent: {}
+[0.920131] (-) TimerEvent: {}
+[1.052431] (-) TimerEvent: {}
+[1.103386] (teleOperation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.154445] (-) TimerEvent: {}
+[1.215572] (teleOperation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.254862] (-) TimerEvent: {}
+[1.357128] (-) TimerEvent: {}
+[1.460550] (-) TimerEvent: {}
+[1.591353] (-) TimerEvent: {}
+[1.702284] (-) TimerEvent: {}
+[1.740331] (teleOperation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.761287] (teleOperation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.763491] (teleOperation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.764484] (teleOperation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.783181] (teleOperation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.813406] (-) TimerEvent: {}
+[1.928435] (-) TimerEvent: {}
+[2.032806] (-) TimerEvent: {}
+[2.135877] (-) TimerEvent: {}
+[2.239833] (-) TimerEvent: {}
+[2.311298] (teleOperation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.328047] (teleOperation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.329218] (teleOperation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.331318] (teleOperation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.340863] (-) TimerEvent: {}
+[2.397301] (teleOperation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.441488] (-) TimerEvent: {}
+[2.544681] (-) TimerEvent: {}
+[2.651530] (-) TimerEvent: {}
+[2.755348] (-) TimerEvent: {}
+[2.855847] (-) TimerEvent: {}
+[2.956890] (teleOperation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.957456] (-) TimerEvent: {}
+[3.058756] (-) TimerEvent: {}
+[3.159533] (-) TimerEvent: {}
+[3.263776] (-) TimerEvent: {}
+[3.324227] (teleOperation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.364691] (-) TimerEvent: {}
+[3.467509] (-) TimerEvent: {}
+[3.570507] (-) TimerEvent: {}
+[3.608226] (teleOperation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.676986] (-) TimerEvent: {}
+[3.783732] (-) TimerEvent: {}
+[3.884392] (-) TimerEvent: {}
+[3.893068] (teleOperation) StderrLine: {'line': b'WARNING: Package name "teleOperation" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[3.985163] (-) TimerEvent: {}
+[4.070720] (teleOperation) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.089017] (-) TimerEvent: {}
+[4.093909] (teleOperation) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.094260] (teleOperation) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pratinav/Desktop/teleOperation/teleOperation/include>\n'}
+[4.094447] (teleOperation) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.099173] (teleOperation) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.099623] (teleOperation) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.105324] (teleOperation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.109283] (teleOperation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.112018] (teleOperation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.119074] (teleOperation) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.119472] (teleOperation) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.123293] (teleOperation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.150558] (teleOperation) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.165225] (teleOperation) StdoutLine: {'line': b'-- Generating done\n'}
+[4.173782] (teleOperation) StdoutLine: {'line': b'-- Build files have been written to: /home/pratinav/Desktop/teleOperation/build/teleOperation\n'}
+[4.190961] (teleOperation) CommandEnded: {'returncode': 0}
+[4.191915] (-) TimerEvent: {}
+[4.192072] (teleOperation) JobProgress: {'identifier': 'teleOperation', 'progress': 'build'}
+[4.192118] (teleOperation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pratinav/Desktop/teleOperation/build/teleOperation', '--', '-j4', '-l4'], 'cwd': '/home/pratinav/Desktop/teleOperation/build/teleOperation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratinav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratinav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a81f4c0ce796c8c3334828671a74d8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratinav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratinav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratinav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratinav-VirtualBox:@/tmp/.ICE-unix/984,unix/pratinav-VirtualBox:/tmp/.ICE-unix/984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ec1eb21_2ee5_4f04_9144_18e6b893db85'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MOCXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.174'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pratinav/ros2_ws/install/my_py_pkg:/home/pratinav/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratinav/Desktop/teleOperation/build/teleOperation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a81f4c0ce796c8c3334828671a74d8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pratinav/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratinav/ros2_ws/install/my_cpp_pkg:/home/pratinav/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[4.292169] (-) TimerEvent: {}
+[4.376264] (teleOperation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[4.392918] (-) TimerEvent: {}
+[4.493819] (-) TimerEvent: {}
+[4.596291] (-) TimerEvent: {}
+[4.611688] (teleOperation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[4.701463] (-) TimerEvent: {}
+[4.743559] (teleOperation) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[4.806436] (-) TimerEvent: {}
+[4.824057] (teleOperation) CommandEnded: {'returncode': 0}
+[4.907056] (-) TimerEvent: {}
+[4.992588] (teleOperation) JobProgress: {'identifier': 'teleOperation', 'progress': 'install'}
+[5.008932] (-) TimerEvent: {}
+[5.038553] (teleOperation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pratinav/Desktop/teleOperation/build/teleOperation'], 'cwd': '/home/pratinav/Desktop/teleOperation/build/teleOperation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratinav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratinav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a81f4c0ce796c8c3334828671a74d8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratinav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratinav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratinav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratinav-VirtualBox:@/tmp/.ICE-unix/984,unix/pratinav-VirtualBox:/tmp/.ICE-unix/984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ec1eb21_2ee5_4f04_9144_18e6b893db85'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MOCXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.174'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pratinav/ros2_ws/install/my_py_pkg:/home/pratinav/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratinav/Desktop/teleOperation/build/teleOperation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=60a81f4c0ce796c8c3334828671a74d8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pratinav/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratinav/ros2_ws/install/my_cpp_pkg:/home/pratinav/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[5.066519] (teleOperation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.066904] (teleOperation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.067192] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/lib/teleOperation/my_node\n'}
+[5.091103] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation//launch/display.launch.py\n'}
+[5.110721] (-) TimerEvent: {}
+[5.123228] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation//launch/gazebo.launch.py\n'}
+[5.157122] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation//urdf/my_robot.urdf\n'}
+[5.178578] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation//rviz/config.rviz\n'}
+[5.205910] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/ament_index/resource_index/package_run_dependencies/teleOperation\n'}
+[5.216811] (-) TimerEvent: {}
+[5.229158] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/ament_index/resource_index/parent_prefix_path/teleOperation\n'}
+[5.251247] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/environment/ament_prefix_path.sh\n'}
+[5.299089] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/environment/ament_prefix_path.dsv\n'}
+[5.321261] (-) TimerEvent: {}
+[5.328627] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/environment/path.sh\n'}
+[5.346365] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/environment/path.dsv\n'}
+[5.377854] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/local_setup.bash\n'}
+[5.402770] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/local_setup.sh\n'}
+[5.424643] (-) TimerEvent: {}
+[5.431794] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/local_setup.zsh\n'}
+[5.458953] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/local_setup.dsv\n'}
+[5.478095] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/package.dsv\n'}
+[5.506747] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/ament_index/resource_index/packages/teleOperation\n'}
+[5.524797] (-) TimerEvent: {}
+[5.533169] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/cmake/teleOperationConfig.cmake\n'}
+[5.553016] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/cmake/teleOperationConfig-version.cmake\n'}
+[5.618665] (teleOperation) StdoutLine: {'line': b'-- Symlinking: /home/pratinav/Desktop/teleOperation/install/teleOperation/share/teleOperation/package.xml\n'}
+[5.628052] (-) TimerEvent: {}
+[5.663052] (teleOperation) CommandEnded: {'returncode': 0}
+[5.729826] (-) TimerEvent: {}
+[5.832714] (-) TimerEvent: {}
+[5.942224] (-) TimerEvent: {}
+[5.966431] (teleOperation) JobEnded: {'identifier': 'teleOperation', 'rc': 0}
+[5.967414] (-) EventReactorShutdown: {}
