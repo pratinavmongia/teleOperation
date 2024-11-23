@@ -1,8 +1,0 @@
-source;share/teleOperation/hook/cmake_prefix_path.ps1
-source;share/teleOperation/hook/cmake_prefix_path.dsv
-source;share/teleOperation/hook/cmake_prefix_path.sh
-source;share/teleOperation/local_setup.bash
-source;share/teleOperation/local_setup.dsv
-source;share/teleOperation/local_setup.ps1
-source;share/teleOperation/local_setup.sh
-source;share/teleOperation/local_setup.zsh
