@@ -4,7 +4,11 @@ Simulated a remotely (keyboard) operated differential drive robot using Gazebo.
 
 ## Demo
 
-[![demo video](https://raw.githubusercontent.com/pratinavmongia/teleOperation/main/teleOp_Demo_thumbnail.png)](https://raw.githubusercontent.com/pratinavmongia/teleOperation/main/teleOp_Demo.mp4)
+
+
+https://github.com/user-attachments/assets/28149117-99b4-401c-91a4-89350a2f408f
+
+
 
 ## Installation
 
